@@ -1,18 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 body {
+  background: #f7f7f7;
   display: flex;
-  justify-content: center;
+  margin: 0px;
   align-items: center;
-  justify-items: center;
   flex-direction: column;
   width: 100vw;
   font-family: "Open Sans", sans-serif;
-  overflow: hidden;
+  gap: 10px;
 }
-.titulo {
-  background-color: white;
+.cabecalho {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #094a8e;
+  width: 100%;
+  height: 30vw;
+  vertical-align: center;
   text-align: center;
 }
+.titulo {
+  background-color: #094a8e;
+  color: white;
+}
+
 .links {
   display: flex;
 }
@@ -34,48 +45,11 @@ body {
   height: 100%;
   width: 100%;
 }
-.ocean {
-  height: 5%;
-  width: 100w;
+.footer {
+  height: 10vh;
+  width: 100%;
+  background: #f7941d;
   position: absolute;
   bottom: 0;
   left: 0;
-  background: #015871;
-}
-
-.wave {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg)
-    repeat-x;
-  position: absolute;
-  top: -198px;
-  width: 500vw;
-  height: 198px;
-  animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
-  transform: translate3d(0, 0, 0);
-}
-
-.wave:nth-of-type(2) {
-  top: -175px;
-  animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) -0.125s infinite,
-    swell 7s ease -1.25s infinite;
-  opacity: 1;
-}
-
-@keyframes wave {
-  0% {
-    margin-left: 0;
-  }
-  100% {
-    margin-left: -1600px;
-  }
-}
-
-@keyframes swell {
-  0%,
-  100% {
-    transform: translate3d(0, -25px, 0);
-  }
-  50% {
-    transform: translate3d(0, 5px, 0);
-  }
 }

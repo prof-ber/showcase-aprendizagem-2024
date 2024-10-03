@@ -2,7 +2,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  background-image: radial-gradient(#4c231a, #180806);
+  background-image: linear-gradient(to left, #beece3, #a2cbf5);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -10,8 +10,7 @@ body {
 }
 
 .container {
-  background-color: rgba(123, 56, 11, 0.9);
-  color: #f6f1ee;
+  background-color: rgba(247, 247, 247, 0.9);
   border-radius: 10px;
   padding: 2rem;
 }

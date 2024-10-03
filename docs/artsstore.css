@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
 body {
   background: repeating-conic-gradient(
     #7c62c6 90deg,
@@ -8,6 +10,11 @@ body {
   background-repeat: repeat;
   background-size: 200px 200px;
   animation: parallax 30s infinite linear;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
 }
 
 @keyframes parallax {
@@ -17,4 +24,19 @@ body {
   100% {
     background-position: 200px 200px;
   }
+}
+
+.container {
+  background-color: rgba(255, 160, 191, 0.9);
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  width: 50%;
+  height: 50%;
 }

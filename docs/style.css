@@ -42,6 +42,11 @@ body {
   height: 95%;
   width: 95%;
 }
+
+.bicicleta {
+  background-image: linear-gradient(to left, #beece3, #a2cbf5);
+}
+
 .img {
   height: 100%;
   width: 100%;

@@ -51,10 +51,15 @@ body {
 
 .beleza {
   background-color: #fefaef;
+  border-radius: 25px;
+
+  overflow: hidden;
 }
 
 .foguetinho {
   background-color: #545454;
+  border-radius: 25px;
+  overflow: hidden;
 }
 
 .img {

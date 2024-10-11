@@ -47,6 +47,14 @@ body {
   background-image: linear-gradient(to left, #beece3, #a2cbf5);
 }
 
+.beleza {
+  background-color: #fefaef;
+}
+
+.foguetinho {
+  background-color: #545454;
+}
+
 .img {
   height: 100%;
   width: 100%;

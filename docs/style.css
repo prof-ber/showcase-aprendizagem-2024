@@ -35,12 +35,14 @@ body {
   height: 100%;
   width: 90%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 .marca {
   height: 95%;
   width: 95%;
+  border-radius: 25px;
+  overflow: hidden;
 }
 
 .bicicleta {
@@ -58,4 +60,8 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+.sporty {
+  background-image: linear-gradient(to right, #000001, #3432ca);
+  border-radius: 25px;
 }

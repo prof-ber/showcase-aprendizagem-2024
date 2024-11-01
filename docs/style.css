@@ -78,3 +78,8 @@ body {
   background-image: linear-gradient(to right, #000001, #3432ca);
   border-radius: 25px;
 }
+
+.plisa {
+  background-image: url("assets/parade.avif");
+  background-size: cover;
+}

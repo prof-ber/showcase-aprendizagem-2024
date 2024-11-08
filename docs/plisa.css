@@ -38,3 +38,12 @@ img {
   height: auto;
   max-width: 100%;
 }
+
+a {
+  display: block;
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  align-self: center;
+  margin-bottom: 2rem;
+}

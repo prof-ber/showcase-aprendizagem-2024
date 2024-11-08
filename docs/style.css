@@ -82,14 +82,6 @@ body {
   height: 100%;
   width: 100%;
 }
-.footer {
-  height: 10vh;
-  width: 100%;
-  background: #c08e32;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
 .sporty {
   background-image: linear-gradient(to right, #000001, #3432ca);
   border-radius: 25px;

@@ -29,3 +29,12 @@ img {
   justify-content: center;
   align-items: center;
 }
+
+a {
+  display: block;
+  color: white;
+  font-weight: bolder;
+  align-self: center;
+  margin-bottom: 2rem;
+  text-align: center;
+}

@@ -31,3 +31,11 @@ img {
   justify-content: center;
   height: auto;
 }
+a {
+  display: block;
+  color: white;
+  font-weight: bolder;
+  align-self: center;
+  margin-bottom: 2rem;
+  text-align: center;
+}

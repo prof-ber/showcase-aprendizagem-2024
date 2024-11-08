@@ -24,3 +24,11 @@ img {
   width: 50%;
   height: 50%;
 }
+a {
+  display: block;
+  color: white;
+  font-weight: bolder;
+  align-self: center;
+  margin-bottom: 2rem;
+  text-align: center;
+}

@@ -50,3 +50,11 @@ img {
   height: 30vw;
   width: 30vw;
 }
+a {
+  display: block;
+  color: white;
+  font-weight: bolder;
+  align-self: center;
+  margin-bottom: 2rem;
+  text-align: center;
+}

@@ -29,3 +29,11 @@ img {
   width: 50%;
   height: 50%;
 }
+a {
+  display: block;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  align-self: center;
+  margin-bottom: 2rem;
+}
